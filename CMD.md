@@ -37,7 +37,7 @@
 |`taskkill`|Завершение процесса|`taskkill /PID 1234 /F`, `taskkill /IM notepad.exe /F`|
 |`sc query`|Статус служб Windows|`sc query wuauserv`, `sc query type= service state= running`|
 |`sc start / stop / config`|Управление службами|`sc stop "Spooler"`, `sc config "Spooler" start= disabled`|
-|`shutdown`|Перезагрузка/выключение локально или удалённо|`shutdown /r /t 0`, `shutdown /m \\PC01 /r /t 30 /c "Обслуживание"`|
+|`shutdown`|Перезагрузка/выключение локально или удалённо|`shutdown /r /f /t 0`, `shutdown /m \\PC01 /r /t 30 /c "Обслуживание"`|
 
 ---
 
